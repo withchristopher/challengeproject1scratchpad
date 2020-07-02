@@ -1,6 +1,27 @@
-* { padding: 0.001vw; margin: 0.001vw; }
+:root {
+    --primary: #ccdad1;
+    --secondary: #9caea9;
+    --tertiary: #788585;
+    --button-orange: #EC6834;
+    --light-blue: #80A3C4;
+    --dark-blue: #3E6386;
+    --off-white: #F7EFDE;
+    --dark: #343434;
+    --border-radius: .3rem;
+}
 
-html, body, .row, .container-fluid {
+.grey.darken-3 {
+    background-color: green !important;
+}
+
+* {
+    padding: 0.001vw;
+    margin: 0.001vw;
+}
+
+html,
+.row,
+.container-fluid {
     height: 100%;
 }
 
@@ -13,53 +34,53 @@ html, body, .row, .container-fluid {
     color: #074779;
 }
 
-.city{
+.city {
     font-size: 3vw;
     font-weight: 500;
 }
-#search-bar{
+
+#search-bar {
     background-color: #babec2;
-    height: 100% ;
+    height: 100%;
 }
 
-.card-deck .card{
-    background-color:#587da5;
-    color:white;
+.card-deck .card {
+    background-color: #587da5;
+    color: white;
     padding: 1vw;
 }
 
-.favorable{
+.favorable {
     background-color: #28A745;
-    color:white;
+    color: white;
     padding: 0.8vw;
 }
 
-.moderate{
+.moderate {
     background-color: #FFC108;
-    color:white;
+    color: white;
     padding: 0.8vw;
 }
 
-.severe{
+.severe {
     background-color: #DC3545;
-    color:white;
+    color: white;
     padding: 0.8vw;
 }
 
-.cityButtons{
+.cityButtons {
     background-color: white;
     border: 0.1vw solid rgb(179, 175, 175);
     text-align: left;
     color: #32637a;
     padding: 1vw;
-
 }
 
-#search-history{
-   display: flex;
+#search-history {
+    display: flex;
 }
 
-#city-input{
+#city-input {
     position: relative;
     left: 1vw;
 }
